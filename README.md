@@ -1,2 +1,105 @@
-# MaturaAlgorithms
-A collection of algorithms written in python, that are required by Polish IT curriculum
+# Matura Algorithms
+
+A collection of algorithms written in python,
+which are required by the irrelevant Polish IT curriculum.
+Yet to ideally pass the exam well above the desired score,
+one should at least know their existence.
+
+Clone the repository with:
+
+```bash
+git clone https://github.com/Rafisto/MaturaAlgorithms.git
+```
+
+## Algorithms
+
+1. [Primality test - Czy liczba jest liczbą pierwszą?](python/checkPrime.py)
+2. [Base converter - Zamiana systemów liczbowych, na (10) oraz (dowolny) z (10)](python/convertSystems.py)
+3. [LCM, GCD Calculator - Liczenie NWW oraz NWD](python/GCDLCM.py)
+4. [Text comparison - Porównywanie tekstów](python/compareText.py)
+5. [Naive pattern matching - Wyszukiwania Wzorca (WW) metodą naiwną](python/naivePatternSearching.py)
+6. [Caesar cipher - Szyfr przestawieniowy Cezara (ROT13), w ogólności ROT(n)](python/rotEnc.py)
+7. [Insertion Sort - Metoda sortowania poprzez wstawianie](python/instertionSort.py)
+8. [Bubble Sort - Metoda sortowania bąbelkowego](python/bubbleSort.py)
+9. [Iterative progression - Liczenie wyrazów ciągu metodą iteracyjną](python/iterativeProgression.py)
+10. [Recursive progression - Liczenie wyrazów ciągu metodą rekurencyjną](python/recursiveProgression.py)
+11. [Fibonacci sequence - Liczenie wyrazów ciągu Fibonacciego](python/fibonacci.py)
+12. [Bisection method - Wyszukiwanie pierwiastków wielomianu metodą połowienia](python/bisection.py)
+13. [Euclidean algorithm - algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej](python/euclideanAlgorithm.py)
+14. [Binary search - wyszukiwanie binarne](python/binarySearch.py)
+15. [Eratosthenes sieve - generowanie liczb pierwszych z użyciem sita Eratostenesa](python/eratosthenesSieve.py)
+16. [Merge sort - sortowanie ciągu poprzez scalanie]
+17. [Babylonian method - wyszukiwanie pierwiastków metodą babilońską]
+18. [Digit-by-digit calculation - wyszukiwanie pierwiastków metodą sekwencyjną]
+19. [Horner's method - wartości wielomianu schematem Hornera]
+20. [Exponentiation by squaring - szybkie potęgowanie liczb w wersji iteracyjnej i rekurencyjnej]
+21. [Prime factorization - rozkładanie liczby na czynniki pierwsze]
+22. [Progression properties - najdłuższy spójny podciąg niemalejący, spójny podciąg o największej sumie]
+23. [Postfix notation - implementacja kalkulatora przy użyciu odwróconej notacji polskiej]
+24. [Fractal recurrence - Generowanie fraktali]
+
+## Polish Description
+
+[Source (cke.gov.pl)](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informatory/2023/Aneks_2023_2024_informatyka_EM_F23.pdf)
+<br/>
+
+#### Poziom podstawowy. Zdający:
+
+1) planuje kolejne kroki rozwiązywania problemu, z uwzględnieniem podstawowych
+   etapów myślenia komputacyjnego (określenie problemu, definicja modeli i pojęć,
+   znalezienie rozwiązania, zaprogramowanie i testowanie rozwiązania).
+2) stosuje przy rozwiązywaniu problemów z różnych dziedzin algorytmy poznane
+   w szkole podstawowej oraz algorytmy:
+    - a) na liczbach: badania pierwszości liczby
+    - zamiany reprezentacji liczb między pozycyjnymi systemami liczbowymi,
+    - działań na ułamkach z wykorzystaniem NWD i NWW,
+    - b) na tekstach: porównywania tekstów,
+    - wyszukiwania wzorca w tekście metodą naiwną,
+    - szyfrowania tekstu metodą Cezara i przestawieniową,
+    - c) porządkowania ciągu liczb: przez wstawianie
+    - oraz metodą bąbelkową,
+    - d) obliczania wartości elementów ciągu metodą iteracyjną i rekurencyjną,
+    - ^^w tym wartości elementów ciągu Fibonacciego.
+
+3) wyróżnia w problemie podproblemy i charakteryzuje:
+    - metodę połowienia
+    - stosuje podejście zachłanne i rekurencję;
+
+#### Poziom rozszerzony. Zdający:
+
+1) zapisuje za pomocą listy kroków, schematu blokowego lub pseudokodu,
+   i implementuje w wybranym języku programowania, algorytmy poznane na
+   wcześniejszych etapach oraz algorytmy:
+    - a) algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej wraz
+      z zastosowaniami,
+    - b) znajdowania określonego elementu w zbiorze: elementu w zbiorze
+      uporządkowanym metodą binarnego wyszukiwania,
+    - c) generowania liczb pierwszych metodą sita Eratostenesa,
+    - d) sortowania ciągu liczb przez scalanie,
+    - e) wyznaczania miejsc zerowych funkcji metodą połowienia,
+    - f) obliczania przybliżonej wartości pierwiastka kwadratowego,
+    - g) obliczania wartości wielomianu za pomocą schematu Hornera,
+    - h) szybkiego potęgowania liczb w wersji iteracyjnej i rekurencyjnej,
+
+2) wykorzystuje znane sobie algorytmy przy rozwiązywaniu i programowaniu
+   rozwiązań następujących problemów:
+
+    - a) rozkładania liczby na czynniki pierwsze,
+    - b) wykonywania działań na liczbach w systemach innych niż dziesiętny,
+    - c) znajdowania w ciągu podciągów o różnorodnych własnościach, np.
+      najdłuższego spójnego podciągu niemalejącego, spójnego podciągu o największej sumie,
+    - d) zamiany wyrażenia na postać w odwrotnej notacji polskiej i obliczanie jego
+      wartości na podstawie tej postaci,
+
+3) objaśnia, a także porównuje podstawowe metody i techniki algorytmiczne oraz
+   struktury danych, wykorzystując przy tym przykłady problemów i algorytmów,
+   w szczególności:
+    - a) wyszukiwanie elementów liniowe i przez połowienie (do znajdowania
+      elementów w zbiorze, sortowania przez wstawianie, przybliżonego
+      rozwiązywania równań),
+    - b) rekurencję (do generowania ciągów liczb, potęgowania, sortowania liczb,
+      generowania fraktali),
+    - c) metodę dziel i zwyciężaj (sortowanie przez scalanie i szybkie),
+    - d) podejście zachłanne,
+    - e) programowanie dynamiczne,
+    - f) struktury dynamiczne: stos, kolejka, lista (do realizacji algorytmu ONP)
