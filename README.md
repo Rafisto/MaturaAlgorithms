@@ -28,15 +28,14 @@ git clone https://github.com/Rafisto/MaturaAlgorithms.git
 13. [Euclidean algorithm - algorytm Euklidesa w wersji iteracyjnej i rekurencyjnej](python/euclideanAlgorithm.py)
 14. [Binary search - wyszukiwanie binarne](python/binarySearch.py)
 15. [Eratosthenes sieve - generowanie liczb pierwszych z użyciem sita Eratostenesa](python/eratosthenesSieve.py)
-16. [Merge sort - sortowanie ciągu poprzez scalanie]
-17. [Babylonian method - wyszukiwanie pierwiastków metodą babilońską]
-18. [Digit-by-digit calculation - wyszukiwanie pierwiastków metodą sekwencyjną]
-19. [Horner's method - wartości wielomianu schematem Hornera]
-20. [Exponentiation by squaring - szybkie potęgowanie liczb w wersji iteracyjnej i rekurencyjnej]
-21. [Prime factorization - rozkładanie liczby na czynniki pierwsze]
-22. [Progression properties - najdłuższy spójny podciąg niemalejący, spójny podciąg o największej sumie]
-23. [Postfix notation - implementacja kalkulatora przy użyciu odwróconej notacji polskiej]
-24. [Fractal recurrence - Generowanie fraktali]
+16. [Merge sort - sortowanie ciągu poprzez scalanie](python/mergeSort.py)
+17. [Babylonian method - wyszukiwanie pierwiastków kwadratowych metodą babilońską](python/babylonianMethod.py)
+18. [Horner's method - wartości wielomianu schematem Hornera](python/hornerPolynomialEvaluation.py)
+19. [Exponentiation by squaring - szybkie potęgowanie liczb w wersji iteracyjnej i rekurencyjnej](python/squaringExponentiation.py)
+20. [Prime factorization - rozkładanie liczby na czynniki pierwsze](python/primeFactorization.py)
+21. [Progression properties - najdłuższy spójny podciąg niemalejący, spójny podciąg o największej sumie]
+22. [Postfix notation - implementacja kalkulatora przy użyciu odwróconej notacji polskiej]
+23. [Fractal recurrence - Generowanie fraktali]
 
 ## Polish Description
 
