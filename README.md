@@ -33,7 +33,7 @@ git clone https://github.com/Rafisto/MaturaAlgorithms.git
 18. [Horner's method - wartości wielomianu schematem Hornera](python/hornerPolynomialEvaluation.py)
 19. [Exponentiation by squaring - szybkie potęgowanie liczb w wersji iteracyjnej i rekurencyjnej](python/squaringExponentiation.py)
 20. [Prime factorization - rozkładanie liczby na czynniki pierwsze](python/primeFactorization.py)
-21. [Progression properties - najdłuższy spójny podciąg niemalejący, spójny podciąg o największej sumie]
+21. [Progression properties - najdłuższy spójny podciąg niemalejący, spójny podciąg o największej sumie](python/longestNonDecreasing.py) 
 22. [Postfix notation - implementacja kalkulatora przy użyciu odwróconej notacji polskiej]
 23. [Fractal recurrence - Generowanie fraktali]
 
