@@ -18,11 +18,11 @@ def convertFromDecimalToAny(value, base):
     :return: value in the desired base
     :rtype: int
     """
-    rem = []
+    remainder = []
     while value != 0:
-        rem.append(value % base)
+        remainder.append(value % base)
         value = value // base
-    return ''.join([str(r) for r in reversed(rem)])
+    return ''.join([str(r) for r in reversed(remainder)])
 
 
 print(convertToDecimal("1000", 2))

@@ -3,7 +3,7 @@ def encodeROT(message, base):
     Caesar cipher, shift extended to every integer
     :param message: message to be encoded
     :param base: shift integer
-    :return:
+    :return: encoded string
     """
     res = ""
     for c in message:
@@ -16,7 +16,7 @@ def decodeROT(message, base):
     Caesar decipher, unshift extended to every integer
     :param message: message to be decoded
     :param base: unshift integer
-    :return:
+    :return: decode string
     """
     res = ""
     for c in message:

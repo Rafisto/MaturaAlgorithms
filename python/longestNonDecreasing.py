@@ -2,6 +2,11 @@ import random
  
  
 def OneLongestNonDecreasing(prog):
+    """
+    Return longest non-decreasing subsequence
+    :param prog: progression to find a subsequence
+    :return: length and end index of a subsequence
+    """
     length, v, end = 0, 1, 0
     for i in range(1, len(prog)):
         if prog[i] >= prog[i - 1]:
@@ -15,6 +20,11 @@ def OneLongestNonDecreasing(prog):
  
  
 def LongestNonDecreasingWithHighestSum(prog):
+    """
+    Return longest non-decreasing subsequence with the highest sum
+    :param prog: progression to find a subsequence with the highest sum
+    :return: length and end index of a subsequence with the highest sum
+    """
     length, v = 0, 1
     progressions = []
     for i in range(1, len(prog)):

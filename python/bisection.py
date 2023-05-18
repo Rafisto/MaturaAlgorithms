@@ -5,7 +5,7 @@ def BisectionMethod(function, a, b, precision):
     :param a: range start
     :param b: range end
     :param precision: return approximation if < abs(a-b)
-    :return:
+    :return: approximated root of a function f(x)
     """
     if function(a) * function(b) >= 0:
         raise Exception("The base condition not met: f(a)*f(b)<0")

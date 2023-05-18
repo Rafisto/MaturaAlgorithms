@@ -2,6 +2,11 @@ import math
 
 
 def PrimeFactorization(n):
+    """
+    Decompose a number into a list of prime factors
+    :param n: number to factorize
+    :return: all factors of n in a list
+    """
     factors = []
     while n % 2 == 0:
         factors.append(2)
