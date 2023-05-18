@@ -11,7 +11,8 @@ def GCD(a, b):
         if r == 0:
             return b
         else:
-            a, b = b, b - r
+            a, b = b, r
+    return 1
 
 
 def LCM(a, b):
@@ -26,5 +27,5 @@ def LCM(a, b):
     return (a * b) // GCD(a, b)
 
 
-print(GCD(30, 20))
-print(LCM(30, 20))
+print(GCD(7, 8))
+print(LCM(7, 8))
