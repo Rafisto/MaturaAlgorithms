@@ -9,11 +9,14 @@ def InsertionSort(array):
     """
     for i in range(1, len(array)):
         j = i - 1
+        temp = array[i]
         while j >= 0 and array[i] < array[j]:
             array[j + 1] = array[j]
             j -= 1
-        array[j + 1] = array[i]
+        array[j + 1] = temp
     return array
 
 
-print(InsertionSort([random.randint(0, 100) for i in range(20)]))
+v = [random.randint(0, 100) for i in range(20)]
+print(v)
+print(InsertionSort(v))

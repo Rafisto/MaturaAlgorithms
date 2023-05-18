@@ -11,7 +11,7 @@ def IterativeProgression(function, n):
     """
     res = []
     for i in range(1, n + 1):
-        res.append(Progression(i))
+        res.append(function(i))
 
     return res
 
