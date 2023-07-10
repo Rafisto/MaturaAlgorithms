@@ -6,7 +6,7 @@ def parseFilename(filename):
 
 
 def getColorMap(count):
-    return plt.cm.get_cmap('gnuplot2', count)
+    return plt.cm.get_cmap('gnuplot', count)
 
 
 def getXY(filename):

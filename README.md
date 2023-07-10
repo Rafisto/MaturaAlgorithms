@@ -13,6 +13,16 @@ My score on the advanced informatics: 78%<br/>
 
 Notably won an olympiad.
 
+# Last Year [2022-2023] Comparison
+
+![Matura Comparison](/results/PLOT-COMPARISON.png)
+
+#### Personal opition on the comparison
+
+In 2023 Matura was a little (up to 10%) easier than a year prior.
+
+
+
 # Matura Algorithms
 
 A collection of algorithms written in python,
