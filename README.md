@@ -1,3 +1,18 @@
+# Matura Results
+
+![Matura Results](/results/PLOT.png)
+
+#### Personal opinion on the results
+
+As clearly visible on the plot, basic exams - polish, mathematics and english are specifically fixed to enable the highest number of students to pass.
+Polish and english on a basic level was failed by no more than 5% of the students and basic mathematics less than 15%. Congratulations to all who received a reasonable score.<br/>
+
+My score on the advanced mathematics: 100%<br/>
+My score on the advanced physics: 78%<br/>
+My score on the advanced informatics: 78%<br/>
+
+Notably won an olympiad.
+
 # Matura Algorithms
 
 A collection of algorithms written in python,
