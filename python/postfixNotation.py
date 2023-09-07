@@ -31,7 +31,7 @@ class PostFixNotation:
 
 
 if __name__ == '__main__':
-    eval_string = '100 200 + 2 /'
+    eval_string = '2 3 + 4 * 5 4 6 - * + 2 /'
     strconv = eval_string.split(' ')
     obj = PostFixNotation()
     print(obj.centralFunction(strconv))
