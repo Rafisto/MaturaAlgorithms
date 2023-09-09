@@ -1,28 +1,3 @@
-# Matura Results
-
-![Matura Results](/results/PLOT.png)
-
-#### Personal opinion on the results
-
-As clearly visible on the plot, basic exams - polish, mathematics and english are specifically fixed to enable the highest number of students to pass.
-Polish and english on a basic level was failed by no more than 5% of the students and basic mathematics less than 15%. Congratulations to all who received a reasonable score.<br/>
-
-My score on the advanced mathematics: 100%<br/>
-My score on the advanced physics: 78%<br/>
-My score on the advanced informatics: 78%<br/>
-
-Notably won an olympiad.
-
-# Last Year [2022-2023] Comparison
-
-![Matura Comparison](/results/PLOT-COMPARISON.png)
-
-#### Personal opition on the comparison
-
-In 2023 Matura was a little (up to 10%) easier than a year prior.
-
-
-
 # Matura Algorithms
 
 A collection of algorithms written in python,
@@ -126,3 +101,26 @@ git clone https://github.com/Rafisto/MaturaAlgorithms.git
     - d) podejście zachłanne,
     - e) programowanie dynamiczne,
     - f) struktury dynamiczne: stos, kolejka, lista (do realizacji algorytmu ONP)
+
+# Matura Results
+
+![Matura Results](/results/PLOT.png)
+
+#### Personal opinion on the results
+
+As clearly visible on the plot, basic exams - polish, mathematics and english are specifically fixed to enable the highest number of students to pass.
+Polish and english on a basic level was failed by no more than 5% of the students and basic mathematics less than 15%. Congratulations to all who received a reasonable score.<br/>
+
+My score on the advanced mathematics: 100%<br/>
+My score on the advanced physics: 78%<br/>
+My score on the advanced informatics: 78%<br/>
+
+Notably won an olympiad.
+
+# Last Year [2022-2023] Comparison
+
+![Matura Comparison](/results/PLOT-COMPARISON.png)
+
+#### Personal opition on the comparison
+
+In 2023 Matura was a little (up to 10%) easier than a year prior.
